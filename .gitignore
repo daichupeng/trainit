@@ -1,0 +1,26 @@
+# Private working records: one installation per user.
+/profile.md
+/current_status.md
+/training_log.md
+/training_plan.md
+/archives/
+/sources/
+/training-reference/
+/outputs/
+**/__pycache__/
+*.pyc
+.DS_Store
+# Any future local dashboard state/build or hosting identity.
+/fitness-site/dist/
+/fitness-site/.openai/
+
+# Per-user website settings; never share hosting identities.
+/fitness-site/config.json
+
+# Local credentials and environment settings.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
